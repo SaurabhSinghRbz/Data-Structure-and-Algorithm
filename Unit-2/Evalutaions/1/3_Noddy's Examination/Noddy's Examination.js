@@ -16,7 +16,9 @@ function runProgram(input) {
 
 }
 if (process.env.USER === "") {
-    runProgram(``);
+    runProgram(`7 6
+    4 3 7 6 7 2 2
+    `);
 } else {
     process.stdin.resume();
     process.stdin.setEncoding("ascii");
